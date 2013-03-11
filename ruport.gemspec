@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<fastercsv>, [">= 0"]) if RUBY_VERSION < "1.9"
     s.add_dependency(%q<pdf-writer>, ["= 1.1.8"])
-    s.add_runtime_dependency(%q<prawn>, ["= 1.0.0.rc1"])
+    s.add_runtime_dependency(%q<prawn>, ["= 1.0.0.rc1" ])
   end
 
   s.add_development_dependency(%q<rake>)
